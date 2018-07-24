@@ -28,7 +28,7 @@ $ cordova run android --target=RQ30004JQ69
 ### Source Codes
 
 ```javascript
-var ip = 192.168.1.6;
+var ip = '192.168.1.6';
 var url = 'http://'+ip+'/videostream.cgi?user=admin&pwd=';
 var target = '_blank';
 var settings = 'location=no';
